@@ -19,7 +19,7 @@ setup(
         long_description_content_type='text/markdown',
         packages=find_packages(exclude=["tests*"]),
         install_requires=[
-            'clip@git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33',
+            'clip@git+https://github.com/openai/CLIP.git',
             'timm>=0.6.13',
             'transformers>=4.27.4',
             'fairscale>=0.4.13',
